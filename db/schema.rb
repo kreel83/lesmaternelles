@@ -10,10 +10,70 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2019_12_16_205451) do
+ActiveRecord::Schema.define(version: 2019_12_21_191116) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
+
+  create_table "activites", force: :cascade do |t|
+    t.string "nom"
+    t.string "photo"
+    t.bigint "categorie_id", null: false
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+    t.index ["categorie_id"], name: "index_activites_on_categorie_id"
+  end
+
+  create_table "categories", force: :cascade do |t|
+    t.string "nom"
+    t.string "photo"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+  end
+
+  create_table "enfants", force: :cascade do |t|
+    t.string "nom"
+    t.string "prenom"
+    t.string "groupe"
+    t.string "photo"
+    t.string "emails"
+    t.string "ddn"
+    t.string "sexe"
+    t.bigint "user_id", null: false
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+    t.index ["user_id"], name: "index_enfants_on_user_id"
+  end
+
+  create_table "media", force: :cascade do |t|
+    t.string "nom"
+    t.string "url"
+    t.string "type"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+  end
+
+  create_table "notations", force: :cascade do |t|
+    t.string "nom"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+  end
+
+  create_table "resultats", force: :cascade do |t|
+    t.bigint "user_id", null: false
+    t.bigint "enfant_id", null: false
+    t.bigint "activite_id", null: false
+    t.bigint "notation_id", null: false
+    t.datetime "date"
+    t.bigint "video_id", null: false
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+    t.index ["activite_id"], name: "index_resultats_on_activite_id"
+    t.index ["enfant_id"], name: "index_resultats_on_enfant_id"
+    t.index ["notation_id"], name: "index_resultats_on_notation_id"
+    t.index ["user_id"], name: "index_resultats_on_user_id"
+    t.index ["video_id"], name: "index_resultats_on_video_id"
+  end
 
   create_table "users", force: :cascade do |t|
     t.string "email", default: "", null: false
@@ -23,8 +83,25 @@ ActiveRecord::Schema.define(version: 2019_12_16_205451) do
     t.datetime "remember_created_at"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
+    t.string "nom"
+    t.string "prenom"
     t.index ["email"], name: "index_users_on_email", unique: true
     t.index ["reset_password_token"], name: "index_users_on_reset_password_token", unique: true
   end
 
+  create_table "videos", force: :cascade do |t|
+    t.string "nom"
+    t.string "url"
+    t.string "type"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+  end
+
+  add_foreign_key "activites", "categories", column: "categorie_id"
+  add_foreign_key "enfants", "users"
+  add_foreign_key "resultats", "activites"
+  add_foreign_key "resultats", "enfants"
+  add_foreign_key "resultats", "notations"
+  add_foreign_key "resultats", "users"
+  add_foreign_key "resultats", "videos"
 end
