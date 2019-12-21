@@ -1,0 +1,17 @@
+<div class="container" style="margin-top: 60px">
+  <div class="row">
+  <% @enfants.each do | enfant |  %>
+      <div class="col-md-4 mb-4">
+    <div class="card-product">
+      <%= link_to enfant_activites_path(enfant) do %>
+      <img src="https://raw.githubusercontent.com/lewagon/fullstack-images/master/uikit/skateboard.jpg" />
+      <% end %>
+      <div class="card-product-infos">
+        <h2><%= enfant.prenom %> <strong><%= enfant.nom %></strong> </h2>
+        <p>Groupe <strong><%= enfant.groupe %></strong> </p>
+      </div>
+    </div>
+      </div>
+<% end %>
+  </div>
+</div>

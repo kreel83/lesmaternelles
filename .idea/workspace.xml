@@ -2,8 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e04ce922-b161-4b40-bc4e-8baad20796da" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/components/_cards.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/pages/_enfants.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/activites/index.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/enfants/index.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/resultats/index.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/components/_index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/components/_index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/pages/_index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/pages/_index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/activite.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/activite.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/user.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/user.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db/schema.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/schema.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db/seeds.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/seeds.rb" afterDir="false" />
     </list>
@@ -43,6 +52,13 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+  </component>
+  <component name="RubyModuleManagerSettings">
+    <option name="blackListedRootsPaths">
+      <list>
+        <option value="$PROJECT_DIR$" />
+      </list>
+    </option>
   </component>
   <component name="RunManager" selected="Rails.Development: lesmaternelles">
     <configuration name="Development: lesmaternelles" type="RailsRunConfigurationType" factoryName="Rails">
@@ -175,7 +191,8 @@
       <updated>1576529792936</updated>
       <workItem from="1576529796901" duration="445000" />
       <workItem from="1576575180178" duration="4071000" />
-      <workItem from="1576952524113" duration="2186000" />
+      <workItem from="1576952524113" duration="2872000" />
+      <workItem from="1576961278311" duration="6821000" />
     </task>
     <servers />
   </component>
@@ -201,10 +218,10 @@
       <screen x="0" y="23" width="1440" height="806" />
     </state>
     <state x="523" y="353" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1440.806@0.23.1440.806" timestamp="1576576744261" />
-    <state x="405" y="152" width="670" height="676" key="search.everywhere.popup" timestamp="1576954643161">
+    <state x="405" y="152" width="670" height="676" key="search.everywhere.popup" timestamp="1576961305496">
       <screen x="0" y="23" width="1440" height="798" />
     </state>
-    <state x="405" y="152" width="670" height="676" key="search.everywhere.popup/0.23.1440.798@0.23.1440.798" timestamp="1576954643161" />
+    <state x="405" y="152" width="670" height="676" key="search.everywhere.popup/0.23.1440.798@0.23.1440.798" timestamp="1576961305496" />
     <state x="405" y="153" key="search.everywhere.popup/0.23.1440.806@0.23.1440.806" timestamp="1576580299603" />
   </component>
 </project>

@@ -1,0 +1,17 @@
+<div class="container" style="margin-top: 60px">
+  <h1>show activité</h1>
+  <div class="row">
+  <% @activites.each do | activite |  %>
+    <div class="col-md-4 mb-4">
+      <div class="card-product">
+
+          <img src="https://raw.githubusercontent.com/lewagon/fullstack-images/master/uikit/skateboard.jpg" />
+
+        <div class="card-product-infos">
+          <p><%= activite.nom %> </p>
+        </div>
+      </div>
+    </div>
+  <% end %>
+  </div>
+</div>
