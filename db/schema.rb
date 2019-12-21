@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2019_12_21_191116) do
+ActiveRecord::Schema.define(version: 2019_12_21_221731) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -21,7 +21,9 @@ ActiveRecord::Schema.define(version: 2019_12_21_191116) do
     t.bigint "categorie_id", null: false
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
+    t.bigint "user_id"
     t.index ["categorie_id"], name: "index_activites_on_categorie_id"
+    t.index ["user_id"], name: "index_activites_on_user_id"
   end
 
   create_table "categories", force: :cascade do |t|
@@ -57,6 +59,15 @@ ActiveRecord::Schema.define(version: 2019_12_21_191116) do
     t.string "nom"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
+  end
+
+  create_table "rejetactivites", force: :cascade do |t|
+    t.bigint "user_id", null: false
+    t.bigint "activite_id", null: false
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+    t.index ["activite_id"], name: "index_rejetactivites_on_activite_id"
+    t.index ["user_id"], name: "index_rejetactivites_on_user_id"
   end
 
   create_table "resultats", force: :cascade do |t|
@@ -99,6 +110,8 @@ ActiveRecord::Schema.define(version: 2019_12_21_191116) do
 
   add_foreign_key "activites", "categories", column: "categorie_id"
   add_foreign_key "enfants", "users"
+  add_foreign_key "rejetactivites", "activites"
+  add_foreign_key "rejetactivites", "users"
   add_foreign_key "resultats", "activites"
   add_foreign_key "resultats", "enfants"
   add_foreign_key "resultats", "notations"
