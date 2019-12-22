@@ -9,6 +9,10 @@
 #
 #
 #
+#
+#
+require 'json'
+
 ACTIVITE1 =
     [
     "OSER PARLER : Je parle en faisant des phrases simples (sujet, verbe, complement)",
@@ -167,7 +171,7 @@ u.save!
   e.save!
   puts e.nom
 end
-=end
+
 
 
 Categorie.destroy_all
@@ -206,4 +210,22 @@ end
 c = Categorie.create(nom: "Devenir Eleve")
 ACTIVITE8.each do |act|
   Activite.create(nom: act, categorie: c)
+end
+=end
+
+Activite.destroy_all
+
+file = File.read('/Users/marcborgna/code/kreel83/lesmaternelles/db/items.json')
+json = JSON.parse(file)
+json.each do |record|
+  a = Activite.new
+  a.titre = record['titre']
+  a.photo = record['image']
+  a.categorie = Categorie.find(record['section_id'].to_i + 1)
+  a.soustitre = record['st']
+  a.level = record['lvl']
+  a.activite = record['activite']
+  a.save!
+  puts record
+  puts "-------------------------"
 end

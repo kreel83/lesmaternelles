@@ -6,6 +6,6 @@ class User < ApplicationRecord
 
   has_many :resultats
   has_many :enfants
-  has_many :activites
+
   has_many :rejetactivites
 end

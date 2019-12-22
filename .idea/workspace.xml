@@ -2,17 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e04ce922-b161-4b40-bc4e-8baad20796da" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/components/_cards.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/assets/stylesheets/pages/_enfants.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/activites/index.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/enfants/index.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/resultats/index.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/components/_index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/components/_index.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/pages/_index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/pages/_index.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/activite.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/activite.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/components/_cards.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/components/_cards.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/models/user.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/user.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/activites/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/activites/index.html.erb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db/schema.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/schema.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db/seeds.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/seeds.rb" afterDir="false" />
     </list>
@@ -32,7 +27,47 @@
     <option name="HIDDEN_KINDS">
       <set />
     </option>
-    <expand />
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="lesmaternelles_development@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="lesmaternelles_development@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="lesmaternelles_development@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="lesmaternelles_development: database" type="162271b6:PgImplModel$Database" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="lesmaternelles_development@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="lesmaternelles_development: database" type="162271b6:PgImplModel$Database" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="lesmaternelles_development@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="lesmaternelles_development: database" type="162271b6:PgImplModel$Database" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="public: schema" type="983ebcf7:PgImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="lesmaternelles_development@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="lesmaternelles_development: database" type="162271b6:PgImplModel$Database" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="public: schema" type="983ebcf7:PgImplModel$Schema" />
+        <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+    </expand>
     <select />
   </component>
   <component name="Git.Settings">
@@ -171,7 +206,12 @@
       <list>
         <serviceView>
           <treeState>
-            <expand />
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="root:lesmaternelles_development@localhost" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+            </expand>
             <select />
           </treeState>
         </serviceView>
@@ -192,7 +232,7 @@
       <workItem from="1576529796901" duration="445000" />
       <workItem from="1576575180178" duration="4071000" />
       <workItem from="1576952524113" duration="2872000" />
-      <workItem from="1576961278311" duration="6821000" />
+      <workItem from="1576961278311" duration="10801000" />
     </task>
     <servers />
   </component>
@@ -200,9 +240,10 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="340" y="82" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1576576674109">
-      <screen x="0" y="23" width="1440" height="806" />
+    <state x="340" y="81" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1577008058842">
+      <screen x="0" y="23" width="1440" height="798" />
     </state>
+    <state x="340" y="81" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.798@0.23.1440.798" timestamp="1577008058842" />
     <state x="340" y="82" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.806@0.23.1440.806" timestamp="1576576674109" />
     <state x="340" y="83" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.821@0.23.1440.821" timestamp="1576575222761" />
     <state x="285" y="32" key="CommitChangelistDialog2" timestamp="1576577079316">
@@ -218,10 +259,10 @@
       <screen x="0" y="23" width="1440" height="806" />
     </state>
     <state x="523" y="353" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1440.806@0.23.1440.806" timestamp="1576576744261" />
-    <state x="405" y="152" width="670" height="676" key="search.everywhere.popup" timestamp="1576961305496">
+    <state x="405" y="152" width="670" height="676" key="search.everywhere.popup" timestamp="1577007864752">
       <screen x="0" y="23" width="1440" height="798" />
     </state>
-    <state x="405" y="152" width="670" height="676" key="search.everywhere.popup/0.23.1440.798@0.23.1440.798" timestamp="1576961305496" />
+    <state x="405" y="152" width="670" height="676" key="search.everywhere.popup/0.23.1440.798@0.23.1440.798" timestamp="1577007864752" />
     <state x="405" y="153" key="search.everywhere.popup/0.23.1440.806@0.23.1440.806" timestamp="1576580299603" />
   </component>
 </project>
