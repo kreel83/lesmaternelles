@@ -1,14 +1,22 @@
-<div class="container" style="margin-top: 60px">
+<div class="container" style="margin-top: 60px;background-color:transparent;">
   <h1>show activité</h1>
   <div class="row">
   <% @activites.each do | activite |  %>
     <div class="col-md-4 mb-4">
-      <div class="card-product">
 
-          <img src="https://raw.githubusercontent.com/lewagon/fullstack-images/master/uikit/skateboard.jpg" />
+      <div class="card-product-cat">
+        <div class="section"></div>
+        <div class="content">
+        <div class="img">
+          <% if activite.photo != '' %>
+            <%= image_tag 'items/'+activite.photo  %>
+          <% end %>
+        </div>
+
 
         <div class="card-product-infos">
-          <p><%= activite.nom %> </p>
+          <p><%= activite.titre %> </p>
+        </div>
         </div>
       </div>
     </div>
