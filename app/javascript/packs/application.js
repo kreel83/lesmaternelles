@@ -1,5 +1,9 @@
 import "bootstrap";
-import {btn} from "../home/home.js"
+import { btn } from "../home/home.js";
+import { choiceSection, choiceItem, choiceMedia } from "../home/activite.js";
 
-btn()
+btn();
+choiceSection();
+choiceItem();
+choiceMedia();
 

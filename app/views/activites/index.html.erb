@@ -1,25 +1,46 @@
 <div class="container" style="margin-top: 60px;background-color:transparent;">
-  <h1>show activité</h1>
-  <div class="row">
+
+  <div class="row justify-content-center">
+     <% @categories.each do |categorie| %>
+      <div class="col-md-1">
+          <div class="section" style="background-color:<%= categorie.color %>;color: <%= categorie.texte %>" data-section="<%= categorie.id %>">
+              <%= image_tag 'logo/'+categorie.logo, style: "width: 50px;color: white" %>
+          </div>
+      </div>
+    <% end %>
+  </div>
+  <hr>
+  <div class="row justify-content-center">
   <% @activites.each do | activite |  %>
-    <div class="col-md-4 mb-4">
 
-      <div class="card-product-cat">
-        <div class="section"></div>
+      <div class="col-md-3 m-3 card-product-cat cat<%= activite.categorie_id %> ">
+
+        <div class="cat" style="background-color:<%= activite.categorie.color %>;">
+          <div class="notation">notation</div>
+          <div class="notation-content">
+            <button class="btn btn-sm btn-danger">notes</button>
+          </div>
+          <div class="video">média</div>
+          <div class="video-content">
+            <button class="btn btn-sm btn-primary">ajouter</button>
+          </div>
+
+        </div>
+
         <div class="content">
-        <div class="img">
-          <% if activite.photo != '' %>
-            <%= image_tag 'items/'+activite.photo  %>
-          <% end %>
-        </div>
+          <div class="img">
+            <% if activite.photo != '' %>
+              <%= image_tag 'items/'+activite.photo  %>
+            <% end %>
+          </div>
 
+          <div class="card-product-infos">
+            <p><%= activite.titre %> </p>
+          </div>
 
-        <div class="card-product-infos">
-          <p><%= activite.titre %> </p>
-        </div>
         </div>
       </div>
-    </div>
+
   <% end %>
   </div>
 </div>
