@@ -1,0 +1,17 @@
+<div class="container" style="margin-top: 60px">
+  <h1>show <%= @enfant.prenom %></h1>
+  <%= simple_form_for @enfant do |f| %>
+    <%= f.input :nom %>
+    <%= f.input :prenom %>
+    <%= f.collection_radio_buttons :sexe, [['G', 'Garcon'], ['F', 'Fille']], :first, :last %>
+    <hr>
+    <input type="email" name="emails[]" value="<%= @emails[0] %>" class="form-control my-2">
+    <input type="email" name="emails[]" value="<%= @emails[1] %>" class="form-control my-2">
+
+    <hr>
+    <%= f.input :photo %>
+    <%= f.input :photo_cache, as: :hidden %>
+    <hr>
+    <%= f.button :submit, class: 'btn btn-primary' %>
+  <% end %>
+</div>

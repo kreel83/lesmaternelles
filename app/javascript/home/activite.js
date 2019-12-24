@@ -7,37 +7,55 @@ const choiceSection = () => {
 };
 
 const choiceItem = () => {
-    $('.card-product-cat').click(function () {
-        if ($(this).hasClass('card-active')) {
-            $(this).find('.cat').css('height','20px');
-            $(this).removeClass('card-active');
+    $('.notes').click(function () {
+        const container = $(this).parent().parent().find('.wrapper')
 
-        } else {
-            $(this).addClass('card-active');
-            $(this).find('.cat').css('height','100%')
-            $(this).find('.cat').css('padding-top','0')
+        container.animate({
+            scrollLeft :400
+        },1000)
+    })
+    $('.medium').click(function () {
+        const container = $(this).parent().parent().find('.wrapper')
 
-        }
+        container.animate({
+            scrollLeft :800
+        },1000)
     })
 };
 
+const choiceLvl = () => {
+    $('.lvl').click(function () {
+        console.log($(this).data('lvl'))
+        const id = $(this).data('id')
+        const enfant = $('#enfant').val()
+        const lvl = $(this).data('lvl')
+        $('#lvl'+id).html($(this).text())
+        const datas = {enfant: enfant, activite: id, lvl: lvl}
+        $.ajax({
+            url: "/enfants/"+enfant+'/activites/updatelevel',
+            type: "POST",
+            headers: {
+                'X-CSRF-Token': $('meta[name="csrf-token"]').attr('content')
+            },
+            dataType: 'json',
+            data: datas,
+            success: function(data) {
+                console.log(data)
+                console.log($(this))
 
-const choiceMedia = () => {
-    $('.cat .video').on('click',function () {
-        $(this).prev().css('display','none')
-        $(this).prev().css('height','0')
 
 
-
-        $(this).next().css('height','80%')
-        $(this).next().slideUp(5000)
+            },
+            error: function(data) {}
+        })
+        const container = $('.wrapper')
+        container.animate({
+            scrollLeft : 0
+        },1000)
     })
 
-    $('.cat .notation').on('click',function () {
-        $(this).next().css('height','80%')
-        $(this).next().next().next().css('height','0')
-        $(this).next().next().next().css('display','none')
-    })
-};
+}
 
-export {choiceSection, choiceItem, choiceMedia}
+
+
+export {choiceSection, choiceItem, choiceLvl}
