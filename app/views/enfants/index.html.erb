@@ -3,9 +3,13 @@
   <% @enfants.each do | enfant |  %>
       <div class="col-md-4 mb-4">
     <div class="card-product">
+      <%= link_to enfant_path(enfant) do %>
+        <i class="fas fa-edit"></i>
+        <% end %>
       <%= link_to enfant_activites_path(enfant) do %>
-      <img src="https://raw.githubusercontent.com/lewagon/fullstack-images/master/uikit/skateboard.jpg" />
+        <img src="https://raw.githubusercontent.com/lewagon/fullstack-images/master/uikit/skateboard.jpg" />
       <% end %>
+
       <div class="card-product-infos">
         <h2><%= enfant.prenom %> <strong><%= enfant.nom %></strong> </h2>
         <p>Groupe <strong><%= enfant.groupe %></strong> </p>

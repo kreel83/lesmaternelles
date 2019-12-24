@@ -1,15 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e04ce922-b161-4b40-bc4e-8baad20796da" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+    <list default="true" id="e04ce922-b161-4b40-bc4e-8baad20796da" name="Default Changelist" comment="{">
+      <change afterPath="$PROJECT_DIR$/app/views/enfants/show.html.erb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/components/_cards.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/components/_cards.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/user.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/user.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/activites_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/activites_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/enfants_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/enfants_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/javascript/home/activite.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/javascript/home/activite.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/javascript/packs/application.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/javascript/packs/application.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/enfant.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/enfant.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/resultat.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/resultat.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/video.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/video.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/views/activites/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/activites/index.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/enfants/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/enfants/index.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/pages/home.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/pages/home.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db/schema.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/schema.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/seeds.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/seeds.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,6 +76,26 @@
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="public: schema" type="983ebcf7:PgImplModel$Schema" />
         <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="lesmaternelles_development@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="lesmaternelles_development: database" type="162271b6:PgImplModel$Database" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="public: schema" type="983ebcf7:PgImplModel$Schema" />
+        <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="enfants: table" type="69fad909:PgImplModel$LocalTable" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="lesmaternelles_development@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="lesmaternelles_development: database" type="162271b6:PgImplModel$Database" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="public: schema" type="983ebcf7:PgImplModel$Schema" />
+        <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="notations: table" type="69fad909:PgImplModel$LocalTable" />
       </path>
     </expand>
     <select />
@@ -232,12 +262,15 @@
       <workItem from="1576529796901" duration="445000" />
       <workItem from="1576575180178" duration="4071000" />
       <workItem from="1576952524113" duration="2872000" />
-      <workItem from="1576961278311" duration="10801000" />
+      <workItem from="1576961278311" duration="47946000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.env" />
   </component>
   <component name="WindowStateProjectService">
     <state x="340" y="81" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1577008058842">
@@ -246,23 +279,29 @@
     <state x="340" y="81" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.798@0.23.1440.798" timestamp="1577008058842" />
     <state x="340" y="82" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.806@0.23.1440.806" timestamp="1576576674109" />
     <state x="340" y="83" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.821@0.23.1440.821" timestamp="1576575222761" />
-    <state x="285" y="32" key="CommitChangelistDialog2" timestamp="1576577079316">
-      <screen x="0" y="23" width="1440" height="806" />
+    <state x="470" y="243" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1577208951164">
+      <screen x="0" y="23" width="1440" height="798" />
     </state>
+    <state x="470" y="243" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1440.798@0.23.1440.798" timestamp="1577208951164" />
+    <state x="285" y="23" key="CommitChangelistDialog2" timestamp="1577017869513">
+      <screen x="0" y="23" width="1440" height="798" />
+    </state>
+    <state x="285" y="23" key="CommitChangelistDialog2/0.23.1440.798@0.23.1440.798" timestamp="1577017869513" />
     <state x="285" y="32" key="CommitChangelistDialog2/0.23.1440.806@0.23.1440.806" timestamp="1576577079316" />
     <state x="241" y="68" key="SettingsEditor" timestamp="1576829152295">
       <screen x="0" y="23" width="1440" height="811" />
     </state>
     <state x="241" y="68" key="SettingsEditor/0.23.1440.806@0.23.1440.806" timestamp="1576580675338" />
     <state x="241" y="68" key="SettingsEditor/0.23.1440.811@0.23.1440.811" timestamp="1576829152295" />
-    <state x="523" y="353" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1576576744261">
-      <screen x="0" y="23" width="1440" height="806" />
-    </state>
-    <state x="523" y="353" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1440.806@0.23.1440.806" timestamp="1576576744261" />
-    <state x="405" y="152" width="670" height="676" key="search.everywhere.popup" timestamp="1577007864752">
+    <state x="523" y="350" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1577017871504">
       <screen x="0" y="23" width="1440" height="798" />
     </state>
-    <state x="405" y="152" width="670" height="676" key="search.everywhere.popup/0.23.1440.798@0.23.1440.798" timestamp="1577007864752" />
+    <state x="523" y="350" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1440.798@0.23.1440.798" timestamp="1577017871504" />
+    <state x="523" y="353" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1440.806@0.23.1440.806" timestamp="1576576744261" />
+    <state x="405" y="152" width="670" height="676" key="search.everywhere.popup" timestamp="1577030888462">
+      <screen x="0" y="23" width="1440" height="798" />
+    </state>
+    <state x="405" y="152" width="670" height="676" key="search.everywhere.popup/0.23.1440.798@0.23.1440.798" timestamp="1577030888462" />
     <state x="405" y="153" key="search.everywhere.popup/0.23.1440.806@0.23.1440.806" timestamp="1576580299603" />
   </component>
 </project>

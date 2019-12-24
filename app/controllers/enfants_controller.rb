@@ -5,5 +5,6 @@ class EnfantsController < ApplicationController
 
   def show
     @enfant = Enfant.find(params[:id])
+    @emails = @enfant.emails.split('/')
   end
 end
