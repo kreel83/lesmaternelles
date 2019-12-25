@@ -17,6 +17,10 @@ class EnfantsController < ApplicationController
 
   end
 
+
+  def hello
+
+  end
   private
 
   def params_enfant
