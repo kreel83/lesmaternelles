@@ -3,7 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="e04ce922-b161-4b40-bc4e-8baad20796da" name="Default Changelist" comment="{">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+
       <change beforePath="$PROJECT_DIR$/app/controllers/enfants_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/enfants_controller.rb" afterDir="false" />
+
     </list>
     <list id="f41b39a0-d668-4c82-9e8f-37bfebf96bf0" name="Revert &quot;{&quot;" comment="Revert &quot;{&quot;&#10;&#10;This reverts commit e1addd74" />
     <option name="SHOW_DIALOG" value="false" />
@@ -194,7 +196,9 @@
       <workItem from="1576575180178" duration="4071000" />
       <workItem from="1576952524113" duration="2872000" />
       <workItem from="1576961278311" duration="50398000" />
+
       <workItem from="1577290507051" duration="130000" />
+
     </task>
     <task id="LOCAL-00001" summary="{">
       <created>1577288896139</created>
@@ -270,10 +274,10 @@
       <screen x="0" y="23" width="1440" height="798" />
     </state>
     <state x="470" y="243" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1440.798@0.23.1440.798" timestamp="1577208951164" />
-    <state x="285" y="0" key="CommitChangelistDialog2" timestamp="1577289790130">
+    <state x="285" y="0" key="CommitChangelistDialog2" timestamp="1577290767332">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="285" y="0" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1577289790130" />
+    <state x="285" y="0" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1577290767332" />
     <state x="285" y="23" key="CommitChangelistDialog2/0.23.1440.798@0.23.1440.798" timestamp="1577017869513" />
     <state x="285" y="32" key="CommitChangelistDialog2/0.23.1440.806@0.23.1440.806" timestamp="1576577079316" />
     <state x="128" y="78" key="DiffContextDialog" timestamp="1577288222489">
