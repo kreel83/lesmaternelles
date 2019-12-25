@@ -3,8 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="e04ce922-b161-4b40-bc4e-8baad20796da" name="Default Changelist" comment="{">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <list id="f41b39a0-d668-4c82-9e8f-37bfebf96bf0" name="Revert &quot;{&quot;" comment="Revert &quot;{&quot;&#10;&#10;This reverts commit e1addd74">
       <change beforePath="$PROJECT_DIR$/app/controllers/enfants_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/enfants_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/enfants/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/enfants/index.html.erb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,7 +102,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RubyModuleManagerSettings">
     <option name="blackListedRootsPaths">
@@ -249,6 +250,14 @@
       <workItem from="1576952524113" duration="2872000" />
       <workItem from="1576961278311" duration="50398000" />
     </task>
+    <task id="LOCAL-00001" summary="{">
+      <created>1577288896139</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1577288896139</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -256,6 +265,51 @@
   </component>
   <component name="UnknownFeatures">
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.env" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="1">
+          <value>
+            <State>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="roots">
+                    <value>
+                      <list>
+                        <option value="$PROJECT_DIR$" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="OPEN_TABS">
+      <set>
+        <option value="1" />
+      </set>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="{" />
+    <option name="LAST_COMMIT_MESSAGE" value="{" />
   </component>
   <component name="WindowStateProjectService">
     <state x="340" y="81" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1577008058842">
@@ -268,24 +322,26 @@
       <screen x="0" y="23" width="1440" height="798" />
     </state>
     <state x="470" y="243" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1440.798@0.23.1440.798" timestamp="1577208951164" />
-    <state x="285" y="0" key="CommitChangelistDialog2" timestamp="1577288225493">
+    <state x="285" y="0" key="CommitChangelistDialog2" timestamp="1577289790130">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="285" y="0" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1577288225493" />
+    <state x="285" y="0" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1577289790130" />
     <state x="285" y="23" key="CommitChangelistDialog2/0.23.1440.798@0.23.1440.798" timestamp="1577017869513" />
     <state x="285" y="32" key="CommitChangelistDialog2/0.23.1440.806@0.23.1440.806" timestamp="1576577079316" />
     <state x="128" y="78" key="DiffContextDialog" timestamp="1577288222489">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="128" y="78" key="DiffContextDialog/0.0.1440.900@0.0.1440.900" timestamp="1577288222488" />
-    <state x="241" y="68" key="SettingsEditor" timestamp="1576829152295">
-      <screen x="0" y="23" width="1440" height="811" />
+    <state x="241" y="50" key="SettingsEditor" timestamp="1577289871108">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
+    <state x="241" y="50" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1577289871108" />
     <state x="241" y="68" key="SettingsEditor/0.23.1440.806@0.23.1440.806" timestamp="1576580675338" />
     <state x="241" y="68" key="SettingsEditor/0.23.1440.811@0.23.1440.811" timestamp="1576829152295" />
-    <state x="523" y="350" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1577017871504">
-      <screen x="0" y="23" width="1440" height="798" />
+    <state x="523" y="369" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1577288954607">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
+    <state x="523" y="369" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1440.900@0.0.1440.900" timestamp="1577288954607" />
     <state x="523" y="350" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1440.798@0.23.1440.798" timestamp="1577017871504" />
     <state x="523" y="353" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1440.806@0.23.1440.806" timestamp="1576576744261" />
     <state x="405" y="152" width="670" height="676" key="search.everywhere.popup" timestamp="1577030888462">

@@ -17,10 +17,6 @@ class EnfantsController < ApplicationController
 
   end
 
-  def hello
-    puts "hello";
-  end
-
   private
 
   def params_enfant
