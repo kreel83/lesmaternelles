@@ -7,7 +7,11 @@
         <i class="fas fa-edit"></i>
         <% end %>
       <%= link_to enfant_activites_path(enfant) do %>
-        <img src="https://raw.githubusercontent.com/lewagon/fullstack-images/master/uikit/skateboard.jpg" />
+        <% if enfant.photo %>
+            <%= cl_image_tag(enfant.photo, :width => 400, :crop => "pad") %>
+          <% else %>
+            <img src="https://raw.githubusercontent.com/lewagon/fullstack-images/master/uikit/skateboard.jpg" />
+          <% end %>
       <% end %>
 
       <div class="card-product-infos">
