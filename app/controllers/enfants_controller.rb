@@ -1,11 +1,13 @@
 class EnfantsController < ApplicationController
   def index
-    @enfants = Enfant.all
+    @enfants = Enfant.where(user: current_user).order(:prenom)
+
   end
 
   def show
     @enfant = Enfant.find(params[:id])
     @emails = @enfant.emails.split('/')
+
   end
 
 
@@ -13,7 +15,9 @@ class EnfantsController < ApplicationController
     @enfant = Enfant.find(params[:id])
     @enfant.update(params_enfant)
     rep = "lesmaternelles/#{current_user.email}/eleves"
-    Cloudinary::Uploader.upload(params['enfant']['photo'], :use_filename => true, :folder => rep)
+    r = Cloudinary::Uploader.upload(params['enfant']['photo'], :use_filename => true, :folder => rep)
+    @enfant.photo= r['public_id']
+    @enfant.save
 
   end
 
