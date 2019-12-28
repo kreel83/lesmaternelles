@@ -3,8 +3,10 @@ Rails.application.routes.draw do
   post 'enfants/:id/activites/updatelevel', to: 'activites#updatelevel', as: :enfant_update_level, defaults: {format: :json}
 
   root to: 'pages#home'
+  resources :correspondances
   resources :enfants do
     resources :activites
+
 
   end
 
