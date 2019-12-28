@@ -4,4 +4,8 @@ class CorrespondancesController < ApplicationController
     @enfants = Enfant.where(user: current_user)
 
   end
+
+  def index
+
+  end
 end
