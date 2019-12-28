@@ -2,21 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e04ce922-b161-4b40-bc4e-8baad20796da" name="Default Changelist" comment="{">
-      <change afterPath="$PROJECT_DIR$/app/controllers/correspondances_controller.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/javascript/correspondance/correspondance.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/models/correspondance.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/correspondances/new.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/enfants/aff.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db/migrate/20191227103814_create_correspondances.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/controllers/correspondances_controller_test.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/models/correspondance_test.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/enfants_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/enfants_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/javascript/packs/application.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/javascript/packs/application.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/enfants/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/enfants/index.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/enfants/show.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/enfants/show.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/schema.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/schema.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/correspondances_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/correspondances_controller.rb" afterDir="false" />
     </list>
     <list id="f41b39a0-d668-4c82-9e8f-37bfebf96bf0" name="Revert &quot;{&quot;" comment="Revert &quot;{&quot;&#10;&#10;This reverts commit e1addd74" />
     <option name="SHOW_DIALOG" value="false" />
@@ -266,7 +252,7 @@
       <workItem from="1576575180178" duration="4071000" />
       <workItem from="1576952524113" duration="2872000" />
       <workItem from="1576961278311" duration="50398000" />
-      <workItem from="1577298627218" duration="18590000" />
+      <workItem from="1577298627218" duration="18684000" />
     </task>
     <task id="LOCAL-00001" summary="{">
       <created>1577288896139</created>
@@ -359,10 +345,10 @@
     <state x="241" y="50" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1577289871108" />
     <state x="241" y="68" key="SettingsEditor/0.23.1440.806@0.23.1440.806" timestamp="1576580675338" />
     <state x="241" y="68" key="SettingsEditor/0.23.1440.811@0.23.1440.811" timestamp="1576829152295" />
-    <state x="523" y="369" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1577288954607">
+    <state x="523" y="369" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1577524442099">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="523" y="369" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1440.900@0.0.1440.900" timestamp="1577288954607" />
+    <state x="523" y="369" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1440.900@0.0.1440.900" timestamp="1577524442099" />
     <state x="523" y="350" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1440.798@0.23.1440.798" timestamp="1577017871504" />
     <state x="523" y="353" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1440.806@0.23.1440.806" timestamp="1576576744261" />
     <state x="405" y="145" width="670" height="763" key="search.everywhere.popup" timestamp="1577491282171">
