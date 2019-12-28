@@ -1,4 +1,11 @@
 class EnfantsController < ApplicationController
+  def new
+    @enfant = Enfant.new
+    @emails = []
+    @status = 'new'
+    render :aff
+  end
+
   def index
     @enfants = Enfant.where(user: current_user).order(:prenom)
 
@@ -7,7 +14,8 @@ class EnfantsController < ApplicationController
   def show
     @enfant = Enfant.find(params[:id])
     @emails = @enfant.emails.split('/')
-
+    @status = 'show'
+    render :aff
   end
 
 
@@ -22,7 +30,7 @@ class EnfantsController < ApplicationController
   end
 
 
-  def hello
+  def aff
 
   end
   private

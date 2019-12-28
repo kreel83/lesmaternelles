@@ -1,4 +1,5 @@
 <div class="container" style="margin-top: 60px">
+  <%= link_to 'ajputer un élève', new_enfant_path, class: 'btn btn-primary mb-5' %>
   <div class="row">
     <% @enfants.each do |enfant| %>
       <div class="col-md-4 mb-4">
@@ -18,7 +19,7 @@
             <% else %>
 
               <%= link_to enfant_activites_path(enfant) do %>
-                <%= cl_image_tag(enfant.photo, :width => 400, :crop => "fit", folder: "lesmaternelles/mj@test.fr/eleves") %>
+                <%= cl_image_tag(enfant.photo, :width => 400, folder: "lesmaternelles/mj@test.fr/eleves") %>
               <% end %>
 
             <% end %>
