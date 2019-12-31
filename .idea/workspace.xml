@@ -1,8 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e04ce922-b161-4b40-bc4e-8baad20796da" name="Default Changelist" comment="{">
+
+    <list default="true" id="e04ce922-b161-4b40-bc4e-8baad20796da" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/mailers/user_mailer.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/correspondances/index.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/correspondances/show.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/user_mailer/welcome.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/user_mailer/welcome.text.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/migrate/20191230000753_add_reception_to_correspondance.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/mailers/previews/user_mailer_preview.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/mailers/user_mailer_test.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/application.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/application.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/controllers/correspondances_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/correspondances_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/javascript/correspondance/correspondance.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/javascript/correspondance/correspondance.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/javascript/packs/application.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/javascript/packs/application.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/mailers/application_mailer.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/mailers/application_mailer.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/correspondances/new.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/correspondances/new.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/application.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/application.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/environments/development.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/environments/development.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/schema.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/schema.rb" afterDir="false" />
+
     </list>
     <list id="f41b39a0-d668-4c82-9e8f-37bfebf96bf0" name="Revert &quot;{&quot;" comment="Revert &quot;{&quot;&#10;&#10;This reverts commit e1addd74" />
     <option name="SHOW_DIALOG" value="false" />
@@ -87,7 +108,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="test1" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -252,7 +273,9 @@
       <workItem from="1576575180178" duration="4071000" />
       <workItem from="1576952524113" duration="2872000" />
       <workItem from="1576961278311" duration="50398000" />
-      <workItem from="1577298627218" duration="18684000" />
+
+      <workItem from="1577298627218" duration="26851000" />
+
     </task>
     <task id="LOCAL-00001" summary="{">
       <created>1577288896139</created>
@@ -261,7 +284,14 @@
       <option name="project" value="LOCAL" />
       <updated>1577288896139</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="index in correspondace controller">
+      <created>1577524510670</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1577524510670</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -316,7 +346,8 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="{" />
-    <option name="LAST_COMMIT_MESSAGE" value="{" />
+    <MESSAGE value="index in correspondace controller" />
+    <option name="LAST_COMMIT_MESSAGE" value="index in correspondace controller" />
   </component>
   <component name="WindowStateProjectService">
     <state x="340" y="81" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1577008058842">

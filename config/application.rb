@@ -19,8 +19,11 @@ require "sprockets/railtie"
 # you've limited to :test, :development, or :production.
 Bundler.require(*Rails.groups)
 
+
 module Lesmaternelles
   class Application < Rails::Application
+    config.action_mailer.delivery_method = :postmark
+    config.action_mailer.postmark_settings = { :api_token => "5a98ec78-1e3e-4237-a0df-c8f1ea5a2fea" }
     config.generators do |generate|
           generate.assets false
           generate.helper false
