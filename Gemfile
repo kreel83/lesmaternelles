@@ -17,10 +17,13 @@ gem 'uglifier'
 gem 'webpacker'
 gem 'cloudinary', '~> 1.9.1'
 gem 'carrierwave', '~> 1.2'
+gem 'postmark-rails'
+
 
 group :development do
   gem 'web-console', '>= 3.3.0'
   gem 'faker'
+  gem 'letter_opener'
 end
 
 group :development, :test do

@@ -1,0 +1,17 @@
+<div class="container" style="margin-top: 66px">
+  <h1>index</h1>
+  <%= link_to "new", new_correspondance_path, class:"btn btn-primary" %>
+  <% @correspondances.each do |cor| %>
+    <%= link_to correspondance_path(cor) do %>
+    <div class="card" style="cursor:pointer;">
+      <card class="card-header">
+        <%= cor.sujet %>
+      </card>
+      <div class="card-body">
+        <%= cor.body %>
+      </div>
+
+    </div>
+      <% end %>
+  <% end %>
+</div>
