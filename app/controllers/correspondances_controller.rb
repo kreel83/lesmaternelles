@@ -7,6 +7,7 @@ class CorrespondancesController < ApplicationController
   end
 
   def index
+
     @correspondances = Correspondance.all
   end
 
@@ -27,5 +28,6 @@ class CorrespondancesController < ApplicationController
 
 
     UserMailer.welcome.deliver_now
+
   end
 end

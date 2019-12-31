@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+
     <list default="true" id="e04ce922-b161-4b40-bc4e-8baad20796da" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/app/mailers/user_mailer.rb" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/app/views/correspondances/index.html.erb" afterDir="false" />
@@ -22,6 +23,7 @@
       <change beforePath="$PROJECT_DIR$/config/application.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/application.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/environments/development.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/environments/development.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db/schema.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/schema.rb" afterDir="false" />
+
     </list>
     <list id="f41b39a0-d668-4c82-9e8f-37bfebf96bf0" name="Revert &quot;{&quot;" comment="Revert &quot;{&quot;&#10;&#10;This reverts commit e1addd74" />
     <option name="SHOW_DIALOG" value="false" />
@@ -271,7 +273,9 @@
       <workItem from="1576575180178" duration="4071000" />
       <workItem from="1576952524113" duration="2872000" />
       <workItem from="1576961278311" duration="50398000" />
+
       <workItem from="1577298627218" duration="26851000" />
+
     </task>
     <task id="LOCAL-00001" summary="{">
       <created>1577288896139</created>
