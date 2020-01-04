@@ -1,0 +1,64 @@
+<div class="container" style="margin-top: 60px;background-color:transparent;">
+  <input type="hidden" id="enfant" value="<%= @enfant %>">
+  <div class="row justify-content-center">
+    <% @categories.each do |categorie| %>
+      <div class="col-md-1">
+        <div class="section" style="background-color:<%= categorie.color %>;color: <%= categorie.texte %>" data-section="<%= categorie.id %>">
+          <%= image_tag 'logo/' + categorie.logo, style: "width: 50px;color: white" %>
+        </div>
+      </div>
+    <% end %>
+  </div>
+  <hr>
+  <div class="row justify-content-center">
+    <% @activites.each do |activite| %>
+
+      <div class="m-3 card-product-cat cat<%= activite.categorie_id %> " >
+
+        <div class="cat" style="background-color:<%= activite.categorie.color %>;">
+          <div class="notes"><i class="fas fa-bars"></i></div>
+          <div class="nochoice" data-id="<%= activite.id %>"><i class="far fa-calendar-times"></i></div>
+
+        </div>
+        <% s='' %>
+        <% if @rejects.find_by(activite_id: activite.id)  %>
+          <% s=' disabledCard' %>
+        <% end %>
+        <div class="wrapper <%= s %>" style="width: 400px;height:180px;overflow: scroll;">
+
+          <div class="total" style="width: 1200px;height: 180px;display: flex;left: -20%" data-toto="<%= activite.id %>">
+            <div class="content" style="width: 400px;height:180px;display: flex;flex-direction: column">
+              <div class="mylevel" style="text-align:center;width: 100%;height: 20px" id="lvl<%=activite.id %>">
+
+              </div>
+              <div class="bas" style="display: flex">
+                <% if @rejects.find_by(activite_id: activite.id)  %>
+                  <% s=' disabledImg' %>
+                <% end %>
+                <div class="img">
+                  <% if activite.photo != '' %>
+                    <%= image_tag 'items/' + activite.photo, class: s %>
+                  <% end %>
+                </div>
+
+                <div class="card-product-infos">
+                  <p><%= activite.titre %> </p>
+                </div>
+              </div>
+            </div>
+            <div class="note" style="width: 400px;height:160px;display: flex;flex-direction: column;align-items: center;justify-content: space-around;color: white">
+
+            </div>
+
+            <div class="medium" style="width: 400px;height:160px;padding: 10px">
+              <button class="btn btn-outline-dark btn-sm d-block w-100 text-center">Ajouter un média</button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    <% end %>
+  </div>
+</div>
+
