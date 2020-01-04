@@ -56,6 +56,38 @@ const choiceLvl = () => {
 
 }
 
+const nochoice = () => {
+    $('.nochoice').click(function () {
+        const container = $(this).parent().parent().find('.wrapper')
+            if (container.hasClass('disabledCard')) {
+                container.removeClass('disabledCard')
+                container.find('img').removeClass('disabledImg')
+            } else {
+                container.addClass('disabledCard')
+                    container.find('img').addClass('disabledImg')
+            }
 
 
-export {choiceSection, choiceItem, choiceLvl}
+        const id = $(this).data('id')
+        const datas = {activite: id}
+        $.ajax({
+            url: "/activites/update_reject",
+            type: "POST",
+            headers: {
+                'X-CSRF-Token': $('meta[name="csrf-token"]').attr('content')
+            },
+            dataType: 'json',
+            data: datas,
+            success: function(data) {
+                console.log(data)
+
+
+
+            },
+            error: function(data) {}
+        })
+
+    })
+}
+
+export {nochoice, choiceSection, choiceItem, choiceLvl}

@@ -11,20 +11,23 @@
         <% end %>
       </div>
       <%= simple_form_for @correspondance do |f|  %>
-        <input type="hidden" value="<%= @enfantsSelect %>" name="enfants" id="enfants">
+        <input type="hidden" value="<%= @enfantsSelect %>" name="enfants" id="enfants" disabled>
         <div class="custom-control custom-switch">
-          <input type="checkbox" class="custom-control-input" id="customSwitches" name="reception">
+          <input type="checkbox" class="custom-control-input" id="customSwitches" name="reception" disabled="">
           <label class="custom-control-label" for="customSwitches">Accusé réception</label>
         </div>
         <div class="form-group">
-          <%= f.input :sujet %>
-          <%= f.input :body %>
-          <%= f.submit %>
+          <%= f.input :sujet, disabled: true %>
+          <%= f.input :body, disabled: true %>
+
         </div>
+
 
 
 
       <% end %>
+      <hr>
+      <%= link_to 'supprimer', correspondance_path(@correspondance), :method=> 'DELETE', class: 'btn btn-danger' %>
     </div>
   </div>
 </div>

@@ -57,12 +57,7 @@
 
           <%= f.input :sujet %>
           <%= f.input :body %>
-          <div class="row form-group">
-            <%= label_tag "attachment", 'Attachment:', class: "col-sm-1 control-label"%>
-            <div class="col-sm-10">
-              <%= file_field_tag "attachment[]",  multiple: true %>
-            </div>
-          </div>
+          <%= f.file_field :media, :multiple=>true, :name=>"mediacustom[]" %>
           <%= f.submit %>
         </div>
 

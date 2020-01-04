@@ -1,6 +1,7 @@
 import "bootstrap";
+import {} from 'jquery-ujs'
 import { btn } from "../home/home.js";
-import { choiceSection, choiceItem, choiceLvl} from "../home/activite.js";
+import { choiceSection, choiceItem, choiceLvl, nochoice} from "../home/activite.js";
 import { selectEnfant} from "../correspondance/correspondance.js";
 
 
@@ -9,4 +10,5 @@ choiceSection();
 choiceItem();
 choiceLvl();
 selectEnfant();
+nochoice();
 

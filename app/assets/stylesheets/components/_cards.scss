@@ -73,7 +73,7 @@
   display: flex;
   align-items: center;
   margin-top: 5px;
-  background-color: #fff;
+  background-color: transparent;
 
 }
 
@@ -81,6 +81,9 @@
   height: 100%;
   width: 120px;
   object-fit: cover;
+  padding: 3px;
+  border-radius: 15px;
+  border: 1px red solid;
 }
 
 .card-product-cat h2 {
@@ -95,7 +98,7 @@
 
   margin-bottom: 0;
   margin-top: 8px;
-  background-color: #fff;
+  background-color: transparent;
 }
 
 .card-product-cat .card-product-infos {
@@ -122,4 +125,13 @@
   padding: 8px;
 
 }
+
+.disabledCard {
+  background-color: rgba(0,0,0,0.3);
+}
+
+.disabledImg {
+  filter: grayscale(100%);
+}
+
 

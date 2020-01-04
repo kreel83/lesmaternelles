@@ -1,12 +1,51 @@
-<div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white border-bottom box-shadow">
-  <h5 class="my-0 mr-md-auto font-weight-normal">Les maternelles</h5>
-  <nav class="my-2 my-md-0 mr-md-3">
-    <a class="p-2 text-dark" href="#">Ma classe</a>
-    <a class="p-2 text-dark" href="#">Les evénements</a>
-    <a class="p-2 text-dark" href="#">Ma correspondance</a>
 
-  </nav>
 
-  <%= link_to 'Se connecter', new_user_session_path, class: 'nav-link btn btn-outline-primary'%>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <a class="navbar-brand" href="#">Les maternelles</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample05" aria-controls="navbarsExample05" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
 
-</div>
+  <div class="collapse navbar-collapse" id="navbarsExample05">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <%= link_to 'Ma classe', enfants_path, class: 'nav-link'%>
+      </li>
+      <li class="nav-item">
+        <%= link_to 'Ma correspondance', correspondances_path, class: 'nav-link'%>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled" href="#">Disabled</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown06" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Réglages</a>
+        <div class="dropdown-menu" aria-labelledby="dropdown06">
+          <%= link_to 'mes cartes', params_activites_path, class: 'dropdown-item'%>
+
+          <a class="dropdown-item" href="#">Another action</a>
+          <a class="dropdown-item" href="#">Something else here</a>
+        </div>
+      </li>
+    </ul>
+
+    <ul class="navbar-nav" style="margin-right: 90px">
+    <li class="nav-item dropdown">
+      <% if user_signed_in? %>
+        <a class="nav-link dropdown-toggle" id="dropdown05" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><%= current_user.nom %></a>
+        <div class="dropdown-menu" aria-labelledby="dropdown05">
+          <%= link_to 'deconnecter', destroy_user_session_path, method: :delete, class: 'dropdown-item' %>
+          <a class="dropdown-item" href="#">Action</a>
+          <a class="dropdown-item" href="#">Another action</a>
+          <a class="dropdown-item" href="#">Something else here</a>
+        </div>
+      <% else %>
+
+        <%= link_to 'Se connecter', new_user_session_path, class: 'btn btn-primary'%>
+      <% end %>
+    </li>
+    </ul>
+
+
+
+  </div>
+</nav>

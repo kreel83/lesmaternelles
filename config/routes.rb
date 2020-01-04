@@ -1,6 +1,9 @@
 Rails.application.routes.draw do
   devise_for :users
   post 'enfants/:id/activites/updatelevel', to: 'activites#updatelevel', as: :enfant_update_level, defaults: {format: :json}
+  post 'activites/update_reject', to: 'activites#update_reject', as: :update_reject, defaults: {format: :json}
+
+  get 'activités/parametre', to: 'activites#parametres', as: :params_activites
 
   root to: 'pages#home'
   resources :correspondances

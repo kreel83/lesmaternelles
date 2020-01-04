@@ -8,6 +8,17 @@ class UserMailer < ApplicationMailer
   def welcome
     @greeting = "Hi"
 
-    mail to: "marc.borgna@gmail.com"
+    @corr = params[:corr]
+    @medias = params[:medias]
+    @medias.each_with_index do |m,index|
+
+      attachments[m.original_filename] = File.read(m.tempfile)
+    end
+
+
+    mail to: params[:mymail]
+
+
+
   end
 end
