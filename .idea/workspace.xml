@@ -2,29 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e04ce922-b161-4b40-bc4e-8baad20796da" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/views/activites/parametres.html.erb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/components/_cards.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/components/_cards.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/activites_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/activites_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/application_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/application_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/correspondances_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/correspondances_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/pages_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/pages_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/javascript/home/activite.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/javascript/home/activite.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/javascript/packs/application.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/javascript/packs/application.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/mailers/user_mailer.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/mailers/user_mailer.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/correspondances/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/correspondances/index.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/correspondances/new.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/correspondances/new.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/correspondances/show.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/correspondances/show.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/devise/sessions/new.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/devise/sessions/new.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/enfants/aff.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/enfants/aff.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/shared/_navbar.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/shared/_navbar.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/user_mailer/welcome.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/user_mailer/welcome.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <list id="f41b39a0-d668-4c82-9e8f-37bfebf96bf0" name="Revert &quot;{&quot;" comment="Revert &quot;{&quot;&#10;&#10;This reverts commit e1addd74" />
     <option name="SHOW_DIALOG" value="false" />
