@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e04ce922-b161-4b40-bc4e-8baad20796da" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/controllers/test.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <list id="f41b39a0-d668-4c82-9e8f-37bfebf96bf0" name="Revert &quot;{&quot;" comment="Revert &quot;{&quot;&#10;&#10;This reverts commit e1addd74" />
@@ -74,6 +75,13 @@
     </expand>
     <select />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
@@ -96,6 +104,7 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="DatabaseDriversLRU" value="postgresql" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -243,6 +252,8 @@
       <workItem from="1576952524113" duration="2872000" />
       <workItem from="1576961278311" duration="50398000" />
       <workItem from="1577298627218" duration="26851000" />
+      <workItem from="1588260017846" duration="37000" />
+      <workItem from="1597532542252" duration="1786000" />
     </task>
     <task id="LOCAL-00001" summary="{">
       <created>1577288896139</created>
@@ -317,43 +328,13 @@
     <option name="LAST_COMMIT_MESSAGE" value="index in correspondace controller" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="340" y="81" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1577008058842">
-      <screen x="0" y="23" width="1440" height="798" />
+    <state x="210" y="126" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1597538009455">
+      <screen x="37" y="23" width="1403" height="877" />
     </state>
-    <state x="340" y="81" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.798@0.23.1440.798" timestamp="1577008058842" />
-    <state x="340" y="82" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.806@0.23.1440.806" timestamp="1576576674109" />
-    <state x="340" y="83" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.821@0.23.1440.821" timestamp="1576575222761" />
-    <state x="470" y="243" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1577208951164">
-      <screen x="0" y="23" width="1440" height="798" />
+    <state x="210" y="126" key="#com.intellij.execution.impl.EditConfigurationsDialog/37.23.1403.877@37.23.1403.877" timestamp="1597538009455" />
+    <state x="527" y="383" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1597538016780">
+      <screen x="37" y="23" width="1403" height="877" />
     </state>
-    <state x="470" y="243" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1440.798@0.23.1440.798" timestamp="1577208951164" />
-    <state x="285" y="0" key="CommitChangelistDialog2" timestamp="1577290767332">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="285" y="0" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1577290767332" />
-    <state x="285" y="23" key="CommitChangelistDialog2/0.23.1440.798@0.23.1440.798" timestamp="1577017869513" />
-    <state x="285" y="32" key="CommitChangelistDialog2/0.23.1440.806@0.23.1440.806" timestamp="1576577079316" />
-    <state x="128" y="78" key="DiffContextDialog" timestamp="1577288222489">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="128" y="78" key="DiffContextDialog/0.0.1440.900@0.0.1440.900" timestamp="1577288222488" />
-    <state x="241" y="50" key="SettingsEditor" timestamp="1577289871108">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="241" y="50" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1577289871108" />
-    <state x="241" y="68" key="SettingsEditor/0.23.1440.806@0.23.1440.806" timestamp="1576580675338" />
-    <state x="241" y="68" key="SettingsEditor/0.23.1440.811@0.23.1440.811" timestamp="1576829152295" />
-    <state x="523" y="369" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1577524442099">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="523" y="369" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1440.900@0.0.1440.900" timestamp="1577524442099" />
-    <state x="523" y="350" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1440.798@0.23.1440.798" timestamp="1577017871504" />
-    <state x="523" y="353" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1440.806@0.23.1440.806" timestamp="1576576744261" />
-    <state x="405" y="145" width="670" height="763" key="search.everywhere.popup" timestamp="1578179662396">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="405" y="145" width="670" height="763" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1578179662396" />
-    <state x="405" y="145" width="670" height="763" key="search.everywhere.popup/0.23.1440.798@0.23.1440.798" timestamp="1578155143270" />
-    <state x="405" y="153" key="search.everywhere.popup/0.23.1440.806@0.23.1440.806" timestamp="1576580299603" />
+    <state x="527" y="383" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/37.23.1403.877@37.23.1403.877" timestamp="1597538016780" />
   </component>
 </project>
